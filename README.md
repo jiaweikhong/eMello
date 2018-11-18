@@ -18,7 +18,8 @@ Using the tone and score provided for each page, the application accesses the re
 
 The final result is an eBook that plays a set track on each page. The book is then placed within the users’ library for them enjoy and experience with the music.
 
-For more infomation please refer to [our thesis]('eMello Thesis'.docx)
+<p>For more information please refer to our <a href="https://github.com/tantongz/eMello/blob/master/eMello%20Thesis.docx/" title="thesis">
+thesis</a>.</p>
 
 ## Sorce Files
 ### eBook Creation
