@@ -21,7 +21,7 @@ The final result is an eBook that plays a set track on each page. The book is th
 <p>For more information please refer to our <a href="https://github.com/tantongz/eMello/blob/master/eMello%20Thesis.docx/" title="thesis">
 thesis</a>.</p>
 
-## Sorce Files
+## Source Files
 ### eBook Creation
 eBook Creation contains the code that edits the HTML pages of the eBook,
 and combination.py is a script that combines and runs all scripts in order.
