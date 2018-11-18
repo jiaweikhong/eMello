@@ -11,20 +11,28 @@ By employing Machine Learning, eMello takes any ePUB file and selects appropriat
 
 Pop-ups are also created and tagged to difficult words, explaining their meanings to the user, to improve the child’s command of the language.
 
+## Proposed Methodology
+Using XCode, we built an iOS application that uses children’s eBooks uploaded into it and by passing them through a Natural Language Processing (NLP) tool, IBM’s Watson, we attained a tonal score. 
+
+Using the tone and score provided for each page, the application accesses the relevant music databases to attain a corresponding track to tag to each page of the eBook. 
+
+The final result is an eBook that plays a set track on each page. The book is then placed within the users’ library for them enjoy and experience with the music.
+
+For more infomation please refer to [a relative link](eMello/eMello Thesis.docx).
 
 ## Sorce Files
 ### eBook Creation
 eBook Creation contains the code that edits the HTML pages of the eBook,
-and combination.py is a script that combines and runs all scripts in order
+and combination.py is a script that combines and runs all scripts in order.
 ### Prediction Model
-Prediction Model contains the code that generates the SVC model to classify music
+Prediction Model contains the code that generates the SVC model to classify music.
 ### Text and Music Analysis
 Text and Music Analysis contains the code that runs the text of the book through a tone analyser
-and runs the music through the created model and outputs the results
+and runs the music through the created model and outputs the results.
 ### Xcode App
-Xcode App contains the code for the backend of the app itself
+Xcode App contains the code for the backend of the app itself.
 ### ExtraResources
-ExtraResources contains additional information that is used in the scripts such as the wordlist
+ExtraResources contains additional information that is used in the scripts such as the wordlist.
 
 
 
