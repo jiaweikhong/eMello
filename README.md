@@ -12,18 +12,18 @@ By employing Machine Learning, eMello takes any ePUB file and selects appropriat
 Pop-ups are also created and tagged to difficult words, explaining their meanings to the user, to improve the child’s command of the language.
 
 
-### Sorce Files
-#### eBook Creation
+## Sorce Files
+### eBook Creation
 eBook Creation contains the code that edits the HTML pages of the eBook,
 and combination.py is a script that combines and runs all scripts in order
-#### Prediction Model
+### Prediction Model
 Prediction Model contains the code that generates the SVC model to classify music
-#### Text and Music Analysis
+### Text and Music Analysis
 Text and Music Analysis contains the code that runs the text of the book through a tone analyser
 and runs the music through the created model and outputs the results
-#### Xcode App
+### Xcode App
 Xcode App contains the code for the backend of the app itself
-#### ExtraResources
+### ExtraResources
 ExtraResources contains additional information that is used in the scripts such as the wordlist
 
 
