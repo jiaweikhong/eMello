@@ -1,8 +1,9 @@
 # eMello
 
-
 [![eMello Video](https://raw.githubusercontent.com/tantongz/eMello/master/Images/eMello%20cover.png)](https://www.youtube.com/watch?v=Y1b2EJdbMP0)
 
+<p>Watch our video <a href="https://www.youtube.com/watch?v=Y1b2EJdbMP0" title="thesis">
+here</a>.</p>
 
 
 ## Background
