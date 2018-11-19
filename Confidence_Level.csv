@@ -1,0 +1,482 @@
+Song Title,Predicted Mood,Confidence_Level
+1) Strings_of_Time_-_David_Fesliyan -Happy.mp3,happy + exuberant,0.5263554907075249
+10) Tears_of_Joy_-_David_Fesliyan - Happy.mp3,happy + exuberant,0.5131345994209885
+11) Times_-_David_Fesliyan - Sad.mp3,happy + exuberant,0.3427556120918723
+12) A_New_Way_-_David_Fesliyan - Happy.mp3,happy + exuberant,0.5172423257228208
+13)A_Fresh_Thought_-_David_Fesliyan - Happy.mp3,happy + exuberant,0.5583463416257384
+14)Our_Memories_-_David_Fesliyan - Calm.mp3,happy + exuberant,0.42150518716579755
+2) Tiny_Kingdom_-_David_Fesliyan - Happy.mp3,happy + exuberant,0.5708101531166134
+3) Forest_Ventures_-_David_Fesliyan -0 Happy.mp3,happy + exuberant,0.5385182755560031
+4) All_Shall_End_-_David_Fesliyan - SAD.mp3,happy + exuberant,0.4921813033562423
+5 ) I_Walk_Alone_-_David_Fesliyan - SAd.mp3,happy + exuberant,0.47391437496851413
+6) Fireplace_Thinking-David-Fesliyan - Sad.mp3,happy + exuberant,0.4950905786486575
+7) The_Power_Of_-_David_Fesliyan - Calm.mp3,happy + exuberant,0.4144404711019955
+8) Healing_-_David_Fesliyan - HAppy.mp3,happy + exuberant,0.4491069117814321
+9) Father_Forgive_Them_-_David_Fesliyan - Sad.mp3,sad,0.4279093264412758
+test_data (1).mp3,happy + exuberant,0.5326948212268403
+test_data (10).mp3,happy + exuberant,0.3473701771759142
+test_data (100).mp3,happy + exuberant,0.47981572910304304
+test_data (101).mp3,happy + exuberant,0.5184291951486055
+test_data (102).mp3,frantic,0.41998207608069443
+test_data (103).mp3,frantic,0.45209126440064484
+test_data (104).mp3,happy + exuberant,0.519365082916503
+test_data (106).mp3,happy + exuberant,0.5285750348698409
+test_data (107).mp3,happy + exuberant,0.5413483526461534
+test_data (109).mp3,frantic,0.42535565266954667
+test_data (110).mp3,happy + exuberant,0.5440228147466447
+test_data (111).mp3,happy + exuberant,0.5151026501539527
+test_data (114).mp3,happy + exuberant,0.5404662921587025
+test_data (115).mp3,happy + exuberant,0.4906818082215532
+test_data (117).mp3,happy + exuberant,0.5280190792361373
+test_data (12).mp3,happy + exuberant,0.4525173733504378
+test_data (120).mp3,happy + exuberant,0.5164692994589996
+test_data (122).mp3,frantic,0.4488296443418333
+test_data (123).mp3,happy + exuberant,0.521412238978005
+test_data (135).mp3,happy + exuberant,0.5101358267768558
+test_data (137).mp3,energetic,0.4168369650953829
+test_data (14).mp3,happy + exuberant,0.4804230724153571
+test_data (141).mp3,frantic,0.43391500197656746
+test_data (142).mp3,frantic,0.45232274269947265
+test_data (143).mp3,happy + exuberant,0.5033202335803899
+test_data (144).mp3,frantic,0.4977788124669417
+test_data (145).mp3,energetic,0.4121887184736953
+test_data (146).mp3,energetic,0.44275459357299085
+test_data (147).mp3,happy + exuberant,0.549631881500105
+test_data (149).mp3,happy + exuberant,0.5392781923801613
+test_data (15).mp3,happy + exuberant,0.41878939262619075
+test_data (154).mp3,frantic,0.41365465532866497
+test_data (156).mp3,happy + exuberant,0.40192530944451105
+test_data (157).mp3,happy + exuberant,0.4809116465149226
+test_data (158).mp3,frantic,0.42897891231742497
+test_data (159).mp3,happy + exuberant,0.5632484422216595
+test_data (16).mp3,happy + exuberant,0.3365028942162453
+test_data (160).mp3,happy + exuberant,0.506557075779314
+test_data (161).mp3,happy + exuberant,0.5367340689806847
+test_data (162).mp3,happy + exuberant,0.4900033525912148
+test_data (163).mp3,frantic,0.4819407684722392
+test_data (164).mp3,frantic,0.4469213148400931
+test_data (165).mp3,frantic,0.486611263023551
+test_data (166).mp3,happy + exuberant,0.5164068871351835
+test_data (167).mp3,happy + exuberant,0.4054372328536319
+test_data (168).mp3,happy + exuberant,0.4580009136264038
+test_data (169).mp3,happy + exuberant,0.4580009136264038
+test_data (170).mp3,happy + exuberant,0.4853879560825059
+test_data (171).mp3,happy + exuberant,0.5058224807123856
+test_data (172).mp3,happy + exuberant,0.40981943549786737
+test_data (173).mp3,contentment,0.3585104289566365
+test_data (174).mp3,happy + exuberant,0.4284180605890427
+test_data (175).mp3,happy + exuberant,0.486383024434899
+test_data (176).mp3,sad,0.27674297985511376
+test_data (177).mp3,frantic,0.404745483306739
+test_data (178).mp3,happy + exuberant,0.45114218539102086
+test_data (179).mp3,happy + exuberant,0.4384474272289252
+test_data (18).mp3,happy + exuberant,0.4871437647991144
+test_data (180).mp3,frantic,0.4333759672631842
+test_data (181).mp3,happy + exuberant,0.4260756913097721
+test_data (182).mp3,frantic,0.3609951620976374
+test_data (183).mp3,frantic,0.4302199171429001
+test_data (184).mp3,frantic,0.3771417427142235
+test_data (185).mp3,happy + exuberant,0.39393292380825695
+test_data (186).mp3,frantic,0.3294991545608567
+test_data (187).mp3,frantic,0.40106479979516635
+test_data (188).mp3,happy + exuberant,0.5156587963714779
+test_data (189).mp3,frantic,0.37057748797286966
+test_data (190).mp3,happy + exuberant,0.52610723872261
+test_data (191).mp3,happy + exuberant,0.526744304062098
+test_data (192).mp3,happy + exuberant,0.5091274048527309
+test_data (193).mp3,frantic,0.4389024444219135
+test_data (194).mp3,happy + exuberant,0.48445367595595523
+test_data (195).mp3,happy + exuberant,0.4298224511268477
+test_data (196).mp3,frantic,0.4739459420332035
+test_data (197).mp3,frantic,0.4275056720380242
+test_data (198).mp3,happy + exuberant,0.51946651871708
+test_data (199).mp3,energetic,0.43301145141708836
+test_data (2).mp3,happy + exuberant,0.433587518670801
+test_data (200).mp3,happy + exuberant,0.45127292273797204
+test_data (201).mp3,happy + exuberant,0.5235353291458499
+test_data (202).mp3,happy + exuberant,0.46620132772978323
+test_data (203).mp3,happy + exuberant,0.5214836076735198
+test_data (204).mp3,frantic,0.38701318042198923
+test_data (205).mp3,happy + exuberant,0.4796236961633772
+test_data (206).mp3,happy + exuberant,0.5731178465279778
+test_data (207).mp3,happy + exuberant,0.4870793143832101
+test_data (208).mp3,frantic,0.48813863201568775
+test_data (209).mp3,frantic,0.44406937376216893
+test_data (210).mp3,frantic,0.43850662578826954
+test_data (211).mp3,frantic,0.44108389679595705
+test_data (212).mp3,frantic,0.44419735225519796
+test_data (213).mp3,frantic,0.4042929348179438
+test_data (214).mp3,frantic,0.43907653586769146
+test_data (215).mp3,happy + exuberant,0.5160278697010513
+test_data (216).mp3,happy + exuberant,0.5027072310631032
+test_data (217).mp3,happy + exuberant,0.5392363504305788
+test_data (218).mp3,happy + exuberant,0.48579193229668816
+test_data (219).mp3,happy + exuberant,0.5349439539694623
+test_data (22).mp3,happy + exuberant,0.4350216047932374
+test_data (220).mp3,happy + exuberant,0.513381901181415
+test_data (221).mp3,happy + exuberant,0.5515648443647853
+test_data (222).mp3,happy + exuberant,0.5086087993036463
+test_data (223).mp3,happy + exuberant,0.5088830750485508
+test_data (224).mp3,happy + exuberant,0.5366792664175937
+test_data (225).mp3,happy + exuberant,0.5366792664175937
+test_data (226).mp3,happy + exuberant,0.47755004980698496
+test_data (227).mp3,happy + exuberant,0.41007066684751964
+test_data (228).mp3,happy + exuberant,0.5415372538234807
+test_data (229).mp3,happy + exuberant,0.5428300140531935
+test_data (23).mp3,happy + exuberant,0.4533403503249429
+test_data (230).mp3,happy + exuberant,0.41973539510111185
+test_data (231).mp3,sad,0.259520054902993
+test_data (232).mp3,happy + exuberant,0.405308941991633
+test_data (233).mp3,happy + exuberant,0.4767935976044285
+test_data (234).mp3,happy + exuberant,0.44287693962734825
+test_data (235).mp3,happy + exuberant,0.46958173789893304
+test_data (236).mp3,happy + exuberant,0.3806794679580332
+test_data (237).mp3,frantic,0.41296954122536567
+test_data (238).mp3,happy + exuberant,0.4927335405369431
+test_data (239).mp3,energetic,0.4503987925047705
+test_data (240).mp3,happy + exuberant,0.5436066830543036
+test_data (241).mp3,happy + exuberant,0.45653569368885166
+test_data (242).mp3,happy + exuberant,0.4010149314014191
+test_data (243).mp3,happy + exuberant,0.5239558854195916
+test_data (244).mp3,frantic,0.4914597876147446
+test_data (245).mp3,happy + exuberant,0.4265636698622646
+test_data (246).mp3,frantic,0.34853502809303183
+test_data (247).mp3,frantic,0.36161986553181813
+test_data (248).mp3,happy + exuberant,0.46765631670372
+test_data (249).mp3,happy + exuberant,0.4517039596550732
+test_data (250).mp3,frantic,0.32998151743696424
+test_data (251).mp3,happy + exuberant,0.5114345422875726
+test_data (252).mp3,happy + exuberant,0.5154371617744145
+test_data (253).mp3,happy + exuberant,0.5250812719094535
+test_data (254).mp3,happy + exuberant,0.5769531267000657
+test_data (255).mp3,happy + exuberant,0.5520144793929839
+test_data (256).mp3,happy + exuberant,0.5420335259547625
+test_data (257).mp3,happy + exuberant,0.5290058698422506
+test_data (258).mp3,happy + exuberant,0.5662551309512802
+test_data (259).mp3,happy + exuberant,0.4468565645029235
+test_data (26).mp3,happy + exuberant,0.48693850062510335
+test_data (260).mp3,happy + exuberant,0.44882688606697774
+test_data (261).mp3,happy + exuberant,0.42376994979254157
+test_data (262).mp3,happy + exuberant,0.5164370116619514
+test_data (263).mp3,happy + exuberant,0.4235779080766021
+test_data (264).mp3,happy + exuberant,0.5134032640799711
+test_data (265).mp3,happy + exuberant,0.5228718290062485
+test_data (266).mp3,happy + exuberant,0.4720862214114362
+test_data (267).mp3,happy + exuberant,0.4376504394146411
+test_data (268).mp3,happy + exuberant,0.4657697691489237
+test_data (269).mp3,happy + exuberant,0.48551978022863984
+test_data (270).mp3,contentment,0.3531816587433834
+test_data (271).mp3,contentment,0.35750063294822876
+test_data (272).mp3,contentment,0.35750063294822876
+test_data (273).mp3,happy + exuberant,0.47041894400293777
+test_data (274).mp3,happy + exuberant,0.5783679317436211
+test_data (275).mp3,happy + exuberant,0.5389509390693376
+test_data (276).mp3,happy + exuberant,0.4999553285621049
+test_data (277).mp3,happy + exuberant,0.46378097001217655
+test_data (278).mp3,happy + exuberant,0.47979988176469063
+test_data (279).mp3,happy + exuberant,0.47352032214212636
+test_data (28).mp3,happy + exuberant,0.4134770484457455
+test_data (280).mp3,happy + exuberant,0.486199118392288
+test_data (281).mp3,contentment,0.3660194590349219
+test_data (282).mp3,happy + exuberant,0.45903831387295674
+test_data (283).mp3,frantic,0.4496436831803983
+test_data (284).mp3,happy + exuberant,0.5858344009626962
+test_data (285).mp3,happy + exuberant,0.5540803092553058
+test_data (286).mp3,happy + exuberant,0.5842484892813261
+test_data (287).mp3,happy + exuberant,0.5830988281023107
+test_data (288).mp3,happy + exuberant,0.5675580076651419
+test_data (289).mp3,happy + exuberant,0.528515993378625
+test_data (29).mp3,happy + exuberant,0.4151170164438896
+test_data (290).mp3,happy + exuberant,0.5283199236307998
+test_data (291).mp3,happy + exuberant,0.4553210517920022
+test_data (292).mp3,happy + exuberant,0.44412331218750184
+test_data (293).mp3,happy + exuberant,0.47671667884778707
+test_data (294).mp3,frantic,0.39284920803093193
+test_data (295).mp3,frantic,0.4159045902046432
+test_data (296).mp3,happy + exuberant,0.5498023769773425
+test_data (297).mp3,frantic,0.41932321316066284
+test_data (298).mp3,frantic,0.4153411774860477
+test_data (299).mp3,frantic,0.4113396159876456
+test_data (300).mp3,happy + exuberant,0.4947935153047125
+test_data (301).mp3,happy + exuberant,0.4210536128158431
+test_data (302).mp3,sad,0.3310338208730719
+test_data (303).mp3,happy + exuberant,0.39705670451365077
+test_data (304).mp3,happy + exuberant,0.3593549076005813
+test_data (305).mp3,happy + exuberant,0.47903391961262143
+test_data (306).mp3,happy + exuberant,0.42423711387471874
+test_data (307).mp3,happy + exuberant,0.4530605544916528
+test_data (308).mp3,happy + exuberant,0.5042235275556958
+test_data (309).mp3,happy + exuberant,0.5175747915106043
+test_data (31).mp3,happy + exuberant,0.5144063790428275
+test_data (310).mp3,happy + exuberant,0.5260451750498413
+test_data (311).mp3,frantic,0.4798441979576369
+test_data (312).mp3,happy + exuberant,0.552555269925737
+test_data (313).mp3,happy + exuberant,0.5681070008975194
+test_data (314).mp3,frantic,0.4819962333140649
+test_data (315).mp3,happy + exuberant,0.5022885686619978
+test_data (316).mp3,happy + exuberant,0.4614562112170759
+test_data (317).mp3,happy + exuberant,0.4718536558273423
+test_data (318).mp3,happy + exuberant,0.48570141562884045
+test_data (319).mp3,frantic,0.4354586597142035
+test_data (32).mp3,energetic,0.39019744835756726
+test_data (320).mp3,happy + exuberant,0.4416883988539593
+test_data (321).mp3,frantic,0.49446125281548997
+test_data (322).mp3,happy + exuberant,0.4361371496754216
+test_data (323).mp3,happy + exuberant,0.532366759754063
+test_data (324).mp3,happy + exuberant,0.5357693625177825
+test_data (325).mp3,happy + exuberant,0.4469089704209647
+test_data (326).mp3,happy + exuberant,0.3953892852725184
+test_data (327).mp3,depression,0.23768406252895213
+test_data (328).mp3,happy + exuberant,0.5239572791427167
+test_data (329).mp3,happy + exuberant,0.5522658145334566
+test_data (330).mp3,happy + exuberant,0.4141071663260694
+test_data (331).mp3,depression,0.3659529081135962
+test_data (332).mp3,happy + exuberant,0.47395586201077
+test_data (333).mp3,sad,0.25373755851503266
+test_data (334).mp3,happy + exuberant,0.5106725411557799
+test_data (335).mp3,depression,0.2640733898966229
+test_data (336).mp3,contentment,0.19428851429779198
+test_data (337).mp3,happy + exuberant,0.4191365001263134
+test_data (338).mp3,happy + exuberant,0.36436314120663493
+test_data (339).mp3,happy + exuberant,0.42015178030843364
+test_data (34).mp3,happy + exuberant,0.39292267922417295
+test_data (340).mp3,calm,0.3321787119706958
+test_data (341).mp3,sad,0.4319636682523674
+test_data (342).mp3,energetic,0.4753710502711994
+test_data (343).mp3,happy + exuberant,0.4302640374000252
+test_data (344).mp3,happy + exuberant,0.5257617909220792
+test_data (345).mp3,happy + exuberant,0.37850195091292804
+test_data (346).mp3,happy + exuberant,0.581652864440516
+test_data (347).mp3,happy + exuberant,0.4344977786702131
+test_data (348).mp3,happy + exuberant,0.4870905701672367
+test_data (349).mp3,happy + exuberant,0.3790988242007282
+test_data (350).mp3,frantic,0.42951428720425916
+test_data (351).mp3,frantic,0.40791506512804737
+test_data (352).mp3,energetic,0.44190750278356644
+test_data (353).mp3,frantic,0.3651595949633509
+test_data (354).mp3,energetic,0.4227495651823628
+test_data (355).mp3,happy + exuberant,0.5134263387019523
+test_data (356).mp3,happy + exuberant,0.50883906969441
+test_data (357).mp3,happy + exuberant,0.5672691241150795
+test_data (358).mp3,happy + exuberant,0.5040849229358033
+test_data (359).mp3,frantic,0.4068731502446258
+test_data (36).mp3,contentment,0.3012429937083335
+test_data (360).mp3,happy + exuberant,0.45955975580022806
+test_data (361).mp3,happy + exuberant,0.4916664528360912
+test_data (362).mp3,happy + exuberant,0.41745938841022406
+test_data (363).mp3,happy + exuberant,0.5179866072423027
+test_data (364).mp3,happy + exuberant,0.5326203864157687
+test_data (365).mp3,happy + exuberant,0.5345195162606341
+test_data (366).mp3,frantic,0.4307527659802264
+test_data (367).mp3,frantic,0.4342659800965316
+test_data (368).mp3,frantic,0.4088862296131304
+test_data (369).mp3,happy + exuberant,0.2727892431424302
+test_data (370).mp3,happy + exuberant,0.40704684482951226
+test_data (371).mp3,happy + exuberant,0.3321331952259313
+test_data (372).mp3,happy + exuberant,0.5046960096782519
+test_data (373).mp3,happy + exuberant,0.5198292960077907
+test_data (374).mp3,happy + exuberant,0.4617063183165254
+test_data (375).mp3,frantic,0.37837634838174194
+test_data (376).mp3,frantic,0.434100309808305
+test_data (377).mp3,happy + exuberant,0.5110188679846209
+test_data (378).mp3,frantic,0.37266554611761327
+test_data (379).mp3,frantic,0.4604711966560972
+test_data (380).mp3,happy + exuberant,0.4367449988455368
+test_data (381).mp3,happy + exuberant,0.38446015682382895
+test_data (382).mp3,happy + exuberant,0.3968389625937888
+test_data (383).mp3,sad,0.2772592913883463
+test_data (384).mp3,happy + exuberant,0.5073405763055319
+test_data (385).mp3,happy + exuberant,0.5013911040719997
+test_data (386).mp3,frantic,0.4058952244564164
+test_data (387).mp3,happy + exuberant,0.5275355591336061
+test_data (388).mp3,happy + exuberant,0.5326006288658831
+test_data (389).mp3,happy + exuberant,0.40618044875065085
+test_data (390).mp3,frantic,0.40623908645463513
+test_data (391).mp3,happy + exuberant,0.4641083542848359
+test_data (392).mp3,happy + exuberant,0.5122928240767686
+test_data (393).mp3,sad,0.24742451247425173
+test_data (394).mp3,frantic,0.45337209027231207
+test_data (395).mp3,happy + exuberant,0.4840002976054428
+test_data (396).mp3,sad,0.20049740930871557
+test_data (397).mp3,happy + exuberant,0.4973573780466499
+test_data (398).mp3,frantic,0.47979243154864715
+test_data (399).mp3,energetic,0.4221935269584538
+test_data (4).mp3,happy + exuberant,0.5442933534579055
+test_data (40).mp3,energetic,0.40773027207654006
+test_data (400).mp3,happy + exuberant,0.41061102716914344
+test_data (401).mp3,happy + exuberant,0.5251137181287874
+test_data (402).mp3,frantic,0.4779591431312392
+test_data (403).mp3,frantic,0.5038524648939682
+test_data (404).mp3,happy + exuberant,0.5509078729512665
+test_data (405).mp3,frantic,0.4106370368045214
+test_data (406).mp3,happy + exuberant,0.5046276346196444
+test_data (407).mp3,happy + exuberant,0.5189049739083801
+test_data (408).mp3,frantic,0.4711172591542264
+test_data (409).mp3,frantic,0.43729566915608253
+test_data (41).mp3,frantic,0.39747423318289415
+test_data (410).mp3,frantic,0.4922862535053569
+test_data (411).mp3,frantic,0.4903768302869547
+test_data (412).mp3,frantic,0.45168863919210783
+test_data (413).mp3,frantic,0.33270988029359516
+test_data (414).mp3,frantic,0.4330442928340981
+test_data (415).mp3,energetic,0.4244539710419499
+test_data (416).mp3,frantic,0.41531005322822756
+test_data (417).mp3,energetic,0.34004159075061646
+test_data (418).mp3,energetic,0.40146748979257807
+test_data (419).mp3,energetic,0.4249450003605179
+test_data (420).mp3,frantic,0.42089125826034557
+test_data (421).mp3,happy + exuberant,0.450599381503822
+test_data (422).mp3,frantic,0.45518324627692813
+test_data (423).mp3,happy + exuberant,0.43431366741196675
+test_data (424).mp3,frantic,0.4905841366218698
+test_data (425).mp3,frantic,0.47443975302413366
+test_data (426).mp3,happy + exuberant,0.5597374338241833
+test_data (427).mp3,happy + exuberant,0.5182821685281872
+test_data (428).mp3,happy + exuberant,0.42150518716579755
+test_data (429).mp3,happy + exuberant,0.5237818020377764
+test_data (43).mp3,happy + exuberant,0.41379259597482154
+test_data (430).mp3,happy + exuberant,0.5133751143849181
+test_data (431).mp3,happy + exuberant,0.545769007955782
+test_data (432).mp3,sad,0.3718922788139489
+test_data (433).mp3,happy + exuberant,0.5708101531166134
+test_data (434).mp3,happy + exuberant,0.4601475701694945
+test_data (435).mp3,happy + exuberant,0.40982557207713977
+test_data (436).mp3,happy + exuberant,0.362335042096175
+test_data (437).mp3,happy + exuberant,0.4752681967981682
+test_data (438).mp3,happy + exuberant,0.3822567689455882
+test_data (439).mp3,happy + exuberant,0.5199061084572439
+test_data (44).mp3,happy + exuberant,0.5192547377641611
+test_data (440).mp3,happy + exuberant,0.4753581145357165
+test_data (441).mp3,energetic,0.48258875692114445
+test_data (442).mp3,happy + exuberant,0.5656091195760142
+test_data (443).mp3,happy + exuberant,0.5609673047693938
+test_data (444).mp3,happy + exuberant,0.5497686962378754
+test_data (445).mp3,happy + exuberant,0.5458808890193182
+test_data (446).mp3,happy + exuberant,0.2863927590947149
+test_data (447).mp3,happy + exuberant,0.5385182755560031
+test_data (448).mp3,happy + exuberant,0.5863402897771584
+test_data (449).mp3,happy + exuberant,0.530620866311012
+test_data (45).mp3,happy + exuberant,0.5745683331650299
+test_data (450).mp3,happy + exuberant,0.4783679975053543
+test_data (451).mp3,happy + exuberant,0.43672234642328284
+test_data (452).mp3,happy + exuberant,0.4324352260501897
+test_data (453).mp3,happy + exuberant,0.5288034710450037
+test_data (454).mp3,happy + exuberant,0.5131345994209885
+test_data (455).mp3,frantic,0.4127835690622155
+test_data (456).mp3,happy + exuberant,0.5499964070879738
+test_data (457).mp3,happy + exuberant,0.5666929587971724
+test_data (458).mp3,happy + exuberant,0.4950905786486575
+test_data (459).mp3,happy + exuberant,0.43600869176748175
+test_data (460).mp3,happy + exuberant,0.43706195591792596
+test_data (461).mp3,happy + exuberant,0.312727335340183
+test_data (462).mp3,happy + exuberant,0.4350887435354482
+test_data (463).mp3,happy + exuberant,0.46720108079729933
+test_data (464).mp3,frantic,0.4476188695025056
+test_data (465).mp3,happy + exuberant,0.3899865344803531
+test_data (466).mp3,happy + exuberant,0.4949832619150625
+test_data (467).mp3,happy + exuberant,0.5417987645020602
+test_data (468).mp3,happy + exuberant,0.46171781192500677
+test_data (469).mp3,happy + exuberant,0.5002561887244816
+test_data (470).mp3,happy + exuberant,0.5328755942959058
+test_data (471).mp3,happy + exuberant,0.4440354521758285
+test_data (472).mp3,happy + exuberant,0.37600445881857575
+test_data (473).mp3,happy + exuberant,0.4612822608693159
+test_data (474).mp3,happy + exuberant,0.49596900053971754
+test_data (475).mp3,sad,0.387525519645919
+test_data (476).mp3,happy + exuberant,0.47584985703969773
+test_data (477).mp3,happy + exuberant,0.37617750506999215
+test_data (478).mp3,happy + exuberant,0.3427556120918723
+test_data (479).mp3,sad,0.4279093264412758
+test_data (48).mp3,happy + exuberant,0.4850896364677124
+test_data (480).mp3,happy + exuberant,0.4171387827075063
+test_data (481).mp3,happy + exuberant,0.46672051116237434
+test_data (482).mp3,happy + exuberant,0.47810091294010226
+test_data (483).mp3,happy + exuberant,0.5219537133016102
+test_data (484).mp3,happy + exuberant,0.47391437496851413
+test_data (485).mp3,contentment,0.36438103701732527
+test_data (486).mp3,happy + exuberant,0.5131695049107498
+test_data (487).mp3,happy + exuberant,0.4908959368878605
+test_data (488).mp3,happy + exuberant,0.5582616050824696
+test_data (489).mp3,happy + exuberant,0.5111731820925723
+test_data (49).mp3,frantic,0.4558524511383077
+test_data (490).mp3,happy + exuberant,0.5401741710734154
+test_data (491).mp3,happy + exuberant,0.5291459627952669
+test_data (492).mp3,happy + exuberant,0.48749839992327787
+test_data (493).mp3,happy + exuberant,0.5172423257228208
+test_data (494).mp3,sad,0.42598229295391876
+test_data (495).mp3,frantic,0.3925017688157719
+test_data (496).mp3,happy + exuberant,0.48209217682213673
+test_data (497).mp3,happy + exuberant,0.5964371724050164
+test_data (498).mp3,happy + exuberant,0.557859397562453
+test_data (499).mp3,energetic,0.39949040159777
+test_data (50).mp3,happy + exuberant,0.5341815130264166
+test_data (500).mp3,frantic,0.4261120390150736
+test_data (501).mp3,happy + exuberant,0.4475839941225239
+test_data (502).mp3,frantic,0.4388874713603279
+test_data (503).mp3,frantic,0.3887284815623809
+test_data (504).mp3,happy + exuberant,0.4312080637621516
+test_data (505).mp3,contentment,0.3473379776917285
+test_data (506).mp3,happy + exuberant,0.33595965586199955
+test_data (507).mp3,happy + exuberant,0.3650315767774984
+test_data (508).mp3,happy + exuberant,0.49330924852205194
+test_data (509).mp3,happy + exuberant,0.4475075846466322
+test_data (510).mp3,happy + exuberant,0.4345492089194636
+test_data (511).mp3,happy + exuberant,0.5493711708366109
+test_data (512).mp3,happy + exuberant,0.4924749356206422
+test_data (513).mp3,happy + exuberant,0.5052396437476344
+test_data (514).mp3,happy + exuberant,0.42298836740327933
+test_data (515).mp3,happy + exuberant,0.49748905082711814
+test_data (516).mp3,happy + exuberant,0.2643634672872322
+test_data (517).mp3,calm,0.31148619344437717
+test_data (518).mp3,happy + exuberant,0.41603529958159574
+test_data (519).mp3,happy + exuberant,0.48802733047010793
+test_data (52).mp3,frantic,0.4133280289471681
+test_data (520).mp3,energetic,0.4835937524623229
+test_data (521).mp3,happy + exuberant,0.43890640809585674
+test_data (522).mp3,frantic,0.45443980616439944
+test_data (523).mp3,happy + exuberant,0.3931951479763173
+test_data (524).mp3,calm,0.3018932790634127
+test_data (525).mp3,happy + exuberant,0.3987340507427535
+test_data (526).mp3,happy + exuberant,0.5032687266579975
+test_data (527).mp3,happy + exuberant,0.45085173488212066
+test_data (528).mp3,happy + exuberant,0.49620136827905453
+test_data (529).mp3,happy + exuberant,0.5110739519864174
+test_data (53).mp3,happy + exuberant,0.4451609513880078
+test_data (530).mp3,happy + exuberant,0.5849946323499753
+test_data (531).mp3,happy + exuberant,0.4493215426519353
+test_data (532).mp3,happy + exuberant,0.34854668876019834
+test_data (533).mp3,happy + exuberant,0.5638990781145186
+test_data (534).mp3,frantic,0.43262228817070203
+test_data (535).mp3,happy + exuberant,0.4264213923136448
+test_data (536).mp3,happy + exuberant,0.5239443715520594
+test_data (55).mp3,happy + exuberant,0.4558599176640727
+test_data (56).mp3,happy + exuberant,0.443220872368225
+test_data (57).mp3,energetic,0.37567149750725826
+test_data (59).mp3,frantic,0.340224314237159
+test_data (6).mp3,happy + exuberant,0.49860555977419463
+test_data (61).mp3,frantic,0.439090537054231
+test_data (62).mp3,happy + exuberant,0.4571901490463795
+test_data (64).mp3,happy + exuberant,0.5184361778668077
+test_data (65).mp3,frantic,0.45950876740950447
+test_data (66).mp3,happy + exuberant,0.5163801960377978
+test_data (67).mp3,happy + exuberant,0.5196867164681577
+test_data (69).mp3,happy + exuberant,0.5099783922727451
+test_data (7).mp3,happy + exuberant,0.5280907022421859
+test_data (71).mp3,frantic,0.47630502066125263
+test_data (72).mp3,happy + exuberant,0.5168584699587907
+test_data (74).mp3,happy + exuberant,0.4330576823279914
+test_data (77).mp3,happy + exuberant,0.5568334811049016
+test_data (78).mp3,happy + exuberant,0.41334667323526564
+test_data (8).mp3,happy + exuberant,0.5227130771580002
+test_data (80).mp3,happy + exuberant,0.5268316187637827
+test_data (83).mp3,happy + exuberant,0.5372931722328075
+test_data (86).mp3,happy + exuberant,0.534303084714919
+test_data (87).mp3,frantic,0.4659720779009248
+test_data (89).mp3,happy + exuberant,0.5056316624523903
+test_data (9).mp3,happy + exuberant,0.491849370023203
+test_data (91).mp3,happy + exuberant,0.5787137710151649
+test_data (93).mp3,frantic,0.48251591704459834
+test_data (95).mp3,happy + exuberant,0.5396938420631309
+test_data (96).mp3,frantic,0.4871179209323761
+test_data (97).mp3,happy + exuberant,0.42205965514128785
+test_data (99).mp3,happy + exuberant,0.5318245536407672
