@@ -1,4 +1,10 @@
 # eMello
+
+
+[![eMello Video](https://raw.githubusercontent.com/tantongz/eMello/master/Images/eMello%20cover.png)](https://www.youtube.com/watch?v=Y1b2EJdbMP0)
+
+
+
 ## Background
 Children typically learn language through children’s books which contain simple sentence structures and vocabulary. They are accompanied by simple illustrations that concisely portray the setting of the story. This provides visual stimulation but neglects the other senses. 
 
