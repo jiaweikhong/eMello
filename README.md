@@ -1,4 +1,5 @@
 # eMello
+eMello is an eBook reader that allows the incorporation of an auditory stimulant in the form of instrumental music.
 
 [![eMello Video](https://raw.githubusercontent.com/tantongz/eMello/master/Images/eMello%20cover.png)](https://www.youtube.com/watch?v=Y1b2EJdbMP0)
 
