@@ -5,8 +5,8 @@ from watson_developer_cloud import ToneAnalyzerV3
 def findTone(text):
     tone_analyzer = ToneAnalyzerV3(
             version ='2017-09-21',
-            username ='1faf7127-9248-4664-9ded-f3fc641a0f96',
-            password ='CDDODa1vGFfE'
+            username ='Your Username Here',
+            password ='Your Password Here'
             )
     
     content_type = 'application/json'
